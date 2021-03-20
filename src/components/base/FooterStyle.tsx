@@ -8,7 +8,7 @@ export const FooterLayoutWrapper = styled.footer`
 
 export const FooterWrapper = styled.div`
   width: 100%;
-  height: 300px;
+  height: 180px;
 
   padding: 48px;
 
@@ -20,10 +20,12 @@ export const FooterWrapper = styled.div`
 export const FooterTitle = styled.h1`
   font-size: 1.5rem;
   font-weight: 800;
+  font-family: 'Fira Code', monospace;
 `;
 
 export const FooterDescription = styled.div`
   font-weight: bold;
+  font-family: 'Fira Code', monospace;
 `;
 
 export const Octocat = styled.a`

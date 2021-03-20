@@ -11,9 +11,9 @@ const Footer: React.FC = () => {
   return (
     <FooterLayoutWrapper>
       <FooterWrapper>
-        <FooterTitle>술안주 저장소</FooterTitle>
-        <FooterDescription>&copy; 2021 golbang.dev</FooterDescription>
-        <Octocat target="_blank" href="https://github.com/golbang-dev/">
+        <FooterTitle>stream {'=>'} dev.log</FooterTitle>
+        <FooterDescription>&copy; 2021 overthestream</FooterDescription>
+        <Octocat target="_blank" href="https://github.com/overthestream/">
           <svg
             height="30"
             viewBox="0 0 16 16"
