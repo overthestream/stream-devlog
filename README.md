@@ -1,3 +1,3 @@
 # stream-devlog
 
-blog for write my self-develop & Today I Learned.
+my personal blog to write my self-develop & Today I Learned.
