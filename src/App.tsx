@@ -1,6 +1,6 @@
 import HomePage from 'pages/HomePage';
 import React from 'react';
-import GlobalStyle from 'styles/GlobalStyle';
+import GlobalStyle from 'components/base/GlobalStyle';
 
 const App: React.FC = () => {
   return (
