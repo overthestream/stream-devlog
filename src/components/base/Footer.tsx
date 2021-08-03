@@ -1,11 +1,47 @@
 import React from 'react';
-import {
-  FooterLayoutWrapper,
-  FooterWrapper,
-  FooterTitle,
-  FooterDescription,
-  Octocat,
-} from './FooterStyle';
+import styled from 'styled-components';
+
+const FooterLayoutWrapper = styled.footer`
+  width: 100%;
+  max-width: 1290px;
+  margin: 0 auto;
+`;
+
+const FooterWrapper = styled.div`
+  width: 100%;
+  height: 180px;
+
+  padding: 48px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+`;
+
+const FooterTitle = styled.h1`
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-family: 'Fira Code', monospace;
+`;
+
+const FooterDescription = styled.div`
+  font-weight: bold;
+  font-family: 'Fira Code', monospace;
+`;
+
+const Octocat = styled.a`
+  margin-top: 20px;
+  fill: #ced4da;
+
+  height: 30px;
+  width: 30px;
+
+  svg {
+    :hover {
+      fill: #f8f9fa;
+    }
+  }
+`;
 
 const Footer: React.FC = () => {
   return (
