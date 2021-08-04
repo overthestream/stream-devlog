@@ -18,6 +18,7 @@
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-react": "^7.12.10",
     "@babel/preset-typescript": "^7.12.7",
+    "@types/lodash": "^4.14.172",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@types/react-router": "^5.1.11",
@@ -53,6 +54,8 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
+    "@overthestream/aidy": "^0.0.2",
+    "lodash": "^4.17.21",
     "mobx": "^6.0.4",
     "mobx-react": "^7.0.5",
     "open-color": "^1.8.0",
