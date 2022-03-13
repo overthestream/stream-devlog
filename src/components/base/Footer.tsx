@@ -48,7 +48,7 @@ const Footer: React.FC = () => {
     <FooterLayoutWrapper>
       <FooterWrapper>
         <FooterTitle>stream {'=>'} dev.log</FooterTitle>
-        <FooterDescription>&copy; 2021 overthestream</FooterDescription>
+        <FooterDescription>&copy; 2022 overthestream</FooterDescription>
         <Octocat target="_blank" href="https://github.com/overthestream/">
           <svg
             height="30"
